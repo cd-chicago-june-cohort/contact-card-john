@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#container {
+    width: 970px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding-top: 10px;
+
+}
+
+form {
+    width: 455px;
+    height: 1000px;
+    margin-left: 20px;
+    position: fixed;;
+    display: inline-block;
+}
+
+form input, textarea {
+    margin: 15px;
+    padding: 15px;
+}
+
+#rightSide {
+    width: 455px;
+    height: 1000px;
+    margin-left: 493px;
+    display: inline-block;
+}
+
+.newContact {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    line-height: 100px;
+}
+
+.newContact h1, .newContact p {
+    margin: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
